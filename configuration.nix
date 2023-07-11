@@ -32,7 +32,8 @@
 
     services.xserver.enable = true;
     services.xserver.displayManager.lightdm.enable = true;
-    
+    services.xserver.desktopManager.lxqt.enable = true;
+
     services.xserver = {
         layout = "us";
         xkbVariant = "";
@@ -42,6 +43,8 @@
 
     sound.enable = true;
     hardware.pulseaudio.enable = false;
+    security.rtkit.enable = true;
+    
     services.pipewire = {
         enable = true;
         alsa.enable = true;
