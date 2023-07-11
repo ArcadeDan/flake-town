@@ -16,7 +16,7 @@
     nix.settings.experimental-features = [ "nix-command flakes" ];
     
     time.timeZone = "America/Chicago";
-    time.locale.default = "en_US.UTF-8";
+    
     
     i18n.extraLocaleSettings = {
         LC_ADDRESS = "en_US.UTF-8";
