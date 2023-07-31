@@ -57,6 +57,7 @@
         extraGroups = [ "wheel" "networkmanager" ];
         packages = with pkgs; [
             vim
+            git
         ];
     };
 

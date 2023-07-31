@@ -1,5 +1,5 @@
 { # flake.nix
-  description = "NixOS configuration";
+  description = "Dan's configuration";
  
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-22.11";

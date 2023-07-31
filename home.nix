@@ -44,23 +44,15 @@
   programs.vscode = {
     enable = true;
     extensions = with pkgs.vscode-extensions; [
-      bbenoist.nix
+      
       vadimcn.vscode-lldb
       matklad.rust-analyzer
-      ms-vscode.makefile-tools
-      ms-vscode.cmake-tools
-      ms-vscode.cpptools
-      ms-vscode.theme-tomorrowkit
       ms-vscode.hexeditor
       ms-vscode-remote.remote-ssh
       ms-vsliveshare.vsliveshare
-      kahole.magit
       ms-python.vscode-pylance
       arrterian.nix-env-selector
-      WakaTime.vscode-wakatime
       vscodevim.vim
-      usernamehw.errorlens
-      stephlin.vscode-tmux-keybinding
     ];
     userSettings = {
       "workbench.colorTheme" = "Default Dark+";
