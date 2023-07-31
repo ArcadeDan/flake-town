@@ -44,7 +44,8 @@
   programs.vscode = {
     enable = true;
     extensions = with pkgs.vscode-extensions; [
-      
+      bbenoist.nix
+      ms-vscode.theme-tomorrowkit
       vadimcn.vscode-lldb
       matklad.rust-analyzer
       ms-vscode.hexeditor
